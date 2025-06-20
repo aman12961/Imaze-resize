@@ -317,11 +317,32 @@
     </header>
 
     <section class="hero">
-        <div class="hero-content">
-            <h1>Resize, Convert & Optimize Your Images Online</h1>
-            <p>Free online tool to resize, convert, and compress your images without losing quality. Perfect for social media, websites, and more.</p>
-            <a href="/imaze-resize/img-resize.html" class="main-button">Start Resizing Now</a>
-        </div>
+     <div class="hero-content">
+    <h1>Resize, Convert & Optimize Your Images Online</h1>
+    <p>Free online tool to 
+        <a href="resizer.html#resize" class="hero-link">resize</a>, 
+        <a href="resizer.html#convert" class="hero-link">convert</a>, and 
+        <a href="resizer.html#compress" class="hero-link">compress</a> 
+        your images without losing quality. Perfect for 
+        <a href="resizer.html?preset=social" class="hero-link">social media</a>, 
+        <a href="resizer.html?preset=web" class="hero-link">websites</a>, and more.
+    </p>
+    <a href="/imaze-resizer/img-resize.html" class="main-button">Start Resizing Now</a>
+</div>
+
+<style>
+    .hero-link {
+        color: inherit;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        text-decoration-thickness: 1px;
+        transition: all 0.2s ease;
+    }
+    .hero-link:hover {
+        text-decoration-thickness: 2px;
+        opacity: 0.9;
+    }
+</style>
     </section>
 
     <section class="features">
